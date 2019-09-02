@@ -38,6 +38,8 @@ CppDependOut/
 *.orig
 cov-int*
 *.pdb
+*.obj
+*.tlog
 ui_*
 *.aps
 *.pro.user

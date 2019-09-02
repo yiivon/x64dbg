@@ -1,0 +1,5 @@
+﻿  crashdump.cpp
+  x64dbg_exe.cpp
+  Generating Code...
+CVTRES : fatal error CVT1100: duplicate resource.  type:ICON, name:1, language:0x0409
+LINK : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt

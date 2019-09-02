@@ -62,6 +62,13 @@ SCRIPT_EXPORT bool Script::Debug::DisableBreakpoint(duint address)
     return DbgCmdExecDirect(command);
 }
 
+SCRIPT_EXPORT bool Script::Debug::EnableBreakpoint(duint address)
+{
+	char command[128] = "";
+	sprintf_s(command, "be %p", address);
+	return DbgCmdExecDirect(command);
+}
+
 SCRIPT_EXPORT bool Script::Debug::SetHardwareBreakpoint(duint address, HardwareType type)
 {
     char command[128] = "";
